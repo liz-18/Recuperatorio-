@@ -18,7 +18,7 @@ const listadoPlataformas = ["Twitter", "Facebook", "Youtube"];
 export default function Tarjeta(props) {
   return (
     <ul>
-      {/* Utilizar el listadoPlataformas para renderizar la cantidad de Items acorde al array */}
+
       {listadoPlataformas.map((plataforma, index) => (
         <Item
           key={index} 

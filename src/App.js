@@ -47,7 +47,7 @@ function App() {
         ""
       )}
 
-     // {/* 3- Incorporar el componente Tarjeta en 🚩 */}
+     
       <Tarjeta selectPlatformAsFavorite={handleFavorita} />
 
       <button onClick={handleTema}>Cambiar tema</button>
